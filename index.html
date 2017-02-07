@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>前端练习游戏导航</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            ul,li {
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+            }
+            .box {
+                width: 100%;
+                display: flex;
+                display: -webkit-flex;
+                justify-content: center;
+            }
+            .game-list {
+                display: flex;
+                display: -webkit-flex;
+            }
+            .game-item {
+                padding: 10px;
+                background-color: cornflowerblue;
+                font-size: 30px;
+                margin: 20px;
+            }
+            .game-item a {
+                color: #fff;
+            }
+            .game-item:hover {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <ul class="game-list">
+                <li class="game-item"><a href="./2048html5/index.html">2048</a></li>
+                <li class="game-item"><a href="./贪食蛇.html">贪食蛇</a></li>
+                <li class="game-item"><a href="./骰子游戏.html">骰子游戏</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
